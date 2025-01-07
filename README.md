@@ -26,7 +26,16 @@ Copy the UUID of the Vault where the Vault _item_ is currently located (unfortun
 
 Run the script, specifying the JSON file as the argument, then paste in the Vault UUID when prompted. The script will download all of the file attachements for that item in the current working directory.
 
+## Individually re-uploading filess to 1Password
 
+To upload each file back into 1Password as individual vault items, it's a simple matter of using the `op document create` command to upload each file to a new Document entry:
+
+```
+for file in *
+  do
+    op document create "$file" --vault VAULT_UUID --title "$(basename $file)"
+  done
+```
 
 
 
