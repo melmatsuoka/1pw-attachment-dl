@@ -1,4 +1,4 @@
-# 1pw-attachment-dl
+# 1Password file-attachment downloader
 
 This Bash script use the [1Password CLI](https://developer.1password.com/docs/cli) tool to automatically download all of the file attachments within a selected 1Password Vault Item.
 
