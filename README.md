@@ -1,6 +1,6 @@
 # 1Password file-attachment downloader
 
-This Bash script uses the [1Password CLI](https://developer.1password.com/docs/cli) tool to automatically download all of the file attachments within a selected 1Password Vault Item.
+This Bash script uses the [1Password CLI](https://developer.1password.com/docs/cli) tool to automatically download all of the file attachments within a selected 1Password Vault Item (also requires [jq](https://jqlang.github.io/jq/) for JSON processing).
 
 I wrote this for the purposes of extracting a lot of personal documents that were dragged-and-dropped into my family's shared 1Password vault from the macOS Finder. Unbeknownst to me, the current version of 1Password (as of this writing, v8.10.56) does not import multiple files into separate vault items, but instead creates a "Document" item with the name of the first file in the list of dragged files, and then adds the rest of the files to that same Document item as attached files. For example:
 
