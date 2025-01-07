@@ -14,11 +14,11 @@ This drives me absolutely crazy, so I wrote this script to undo some of the dama
 
 The script assumes that you have already [installed and configured](https://developer.1password.com/docs/cli/get-started) the 1Password `op` CLI tool to work with your 1Password account. 
 
-First, make sure that the "Show debugging tools" option is enabled in your 1Password "Advanced" settings.
+Make sure that the "Show debugging tools" option is enabled in your 1Password "Advanced" settings.
 
 ![1pw_dl_07](https://github.com/user-attachments/assets/9728856b-6c06-4e3d-a7d8-d1b63693973f)
 
-To use the script, you'll need to export the Vault item to a JSON file. Unfortunately you (currently) can't simply export a selected Vault item directly to a JSON file. But you _can_ at least copy the JSON to your clipboard, by right-clicking on the Vault item, then pasting the JSON into a text editor.
+To use the script, you'll first need to export the Vault item to a JSON file. Unfortunately you (currently) can't simply export a selected Vault item directly to a JSON file. But you _can_ at least copy the JSON to your clipboard, by right-clicking on the Vault item, then pasting the JSON into a text editor.
 
 ![1pw_dl_04](https://github.com/user-attachments/assets/15366609-2b4e-4f62-8382-22e3ff4f5997)
 
