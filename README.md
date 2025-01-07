@@ -28,7 +28,7 @@ Run the script, specifying the JSON file as the argument, then paste in the Vaul
 
 ## Individually re-uploading files to 1Password
 
-To upload each file back into 1Password as individual vault items, it's a simple matter of using the `op document create` command to upload each file to a new Document entry:
+To upload each file back into 1Password as individual vault items, it's a simple matter of using the `op document create` [command](https://developer.1password.com/docs/cli/reference/management-commands/document#document-create) to upload each file to a new Document entry:
 
 ```
 for file in *
