@@ -24,7 +24,7 @@ To use the script, you'll first need to export the Vault item to a JSON file. Un
 
 Copy the UUID of the Vault where the Vault _item_ is currently located (unfortunately the Vault UUID is not stored in the JSON of the Vault Item itself).
 
-Run the script, specifying the JSON file as the argument, then paste in the Vault UUID when prompted. The script will download all of the file attachements for that item in the current working directory.
+Run the script, specifying the JSON file as the argument, then paste in the Vault UUID when prompted. The script will download all of the file attachments for that item in the current working directory.
 
 ## Individually re-uploading files to 1Password
 
